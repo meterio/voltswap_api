@@ -21,7 +21,7 @@ app.use('/tickers', pairRoutes)
 
 
 const port = 4000;
-app.listen(port,'0.0.0.0', () => {
+app.listen(port,'192.168.0.3', () => {
     console.log(`App running on post ${port}`);
 })
 
