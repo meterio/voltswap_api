@@ -1,0 +1,81 @@
+{
+    "data": {
+        "swaps": [
+            {
+                "id": "0x28ecf5fe48a31666452cd10c4a2426abfcde669b517c088a70b37372fe465415-0",
+                "amount0Out": "0",
+                "amount1Out": "0.09847278294257812",
+                "timestamp": "1607019625",
+                "pair": {
+                    "token0": {
+                        "id": "0x228ebbee999c6a7ad74a6130e81b12f9fe237ba3",
+                        "decimals": "18",
+                        "symbol": "MTRG",
+                        "tradeVolume": "1620457.892870540331603652",
+                        "__typename": "Token"
+                    },
+                    "token1": {
+                        "id": "0x687a6294d0d6d63e751a059bf1ca68e4ae7b13e2",
+                        "decimals": "18",
+                        "symbol": "MTR",
+                        "tradeVolume": "433657.896575433658835031",
+                        "__typename": "Token"
+                    },
+                    "__typename": "Pair"
+                },
+                "__typename": "Swap"
+            },
+            {
+                "id": "0xe0b3420b8ce5a3b7d37baae5ee711207752dd6f5df46e3ddbf20435083905f48-0",
+                "amount0Out": "0",
+                "amount1Out": "0.096074522670417815",
+                "timestamp": "1607019744",
+                "pair": {
+                    "token0": {
+                        "id": "0x228ebbee999c6a7ad74a6130e81b12f9fe237ba3",
+                        "decimals": "18",
+                        "symbol": "MTRG",
+                        "tradeVolume": "1620457.892870540331603652",
+                        "__typename": "Token"
+                    },
+                    "token1": {
+                        "id": "0x687a6294d0d6d63e751a059bf1ca68e4ae7b13e2",
+                        "decimals": "18",
+                        "symbol": "MTR",
+                        "tradeVolume": "433657.896575433658835031",
+                        "__typename": "Token"
+                    },
+                    "__typename": "Pair"
+                },
+                "__typename": "Swap"
+            },
+            {
+                "id": "0x9961ad3adf2a860c2a2ce959385c9e4829c70e707cc83b2efa088307031f57ba-0",
+                "amount0Out": "0.103418622208333598",
+                "amount1Out": "0",
+                "timestamp": "1607020849",
+                "pair": {
+                    "token0": {
+                        "id": "0x228ebbee999c6a7ad74a6130e81b12f9fe237ba3",
+                        "decimals": "18",
+                        "symbol": "MTRG",
+                        "tradeVolume": "1620457.892870540331603652",
+                        "__typename": "Token"
+                    },
+                    "token1": {
+                        "id": "0x687a6294d0d6d63e751a059bf1ca68e4ae7b13e2",
+                        "decimals": "18",
+                        "symbol": "MTR",
+                        "tradeVolume": "433657.896575433658835031",
+                        "__typename": "Token"
+                    },
+                    "__typename": "Pair"
+                },
+                "__typename": "Swap"
+            }
+        ]
+    },
+    "loading": false,
+    "networkStatus": 7,
+    "stale": false
+}
