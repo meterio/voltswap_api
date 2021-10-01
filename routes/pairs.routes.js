@@ -26,7 +26,6 @@ const pairController = require('../controllers/pairs')
  *                   items:
  *                     type: object
  *                     properties:
- *                     
  *                       base_id:
  *                         type: string
  *                         description: Token 0 id.

@@ -26,7 +26,7 @@ exports.SWAPS = gql` query Pairs
                    
                  }`
 
-    exports.GET_BLOCK = gql`
+exports.GET_BLOCK = gql`
         query blocks($timestampFrom: Int!, $timestampTo: Int!) {
           blocks(
             first: 1
@@ -42,9 +42,9 @@ exports.SWAPS = gql` query Pairs
       `
 
 
-      exports.ETH_PRICE = (block) => {
-        const queryString = block
-          ? `
+exports.ETH_PRICE = (block) => {
+  const queryString = block
+    ? `
           query bundles {
             bundles(where: { id: ${BUNDLE_ID} } block: {number: ${block}}) {
               id
@@ -52,12 +52,12 @@ exports.SWAPS = gql` query Pairs
             }
           }
         `
-          : ` query bundles {
+    : ` query bundles {
             bundles(where: { id: ${BUNDLE_ID} }) {
               id
               ethPrice
             }
           }
         `
-        return gql(queryString)
-      }
+  return gql(queryString)
+}
