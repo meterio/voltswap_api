@@ -18,9 +18,24 @@ app.use(
     swaggerUi.setup(specs)
 );
 app.use('/tickers', pairRoutes)
+app.get('/', (req, res) => {
+    res.send({
+        description: 'APIs for voltswap dex',
+        available_routes:[
+            {
+                route:'/tickers',
+                description:' Retrieves list of all trading pairs on the exchanges'
+            }
+        ]
+    })
+  });
 
 
-const port = 8545;
-app.listen(port, '0.0.0.0')
+const PORT = 8545
+const HOST = '0.0.0.0'
+app.listen(PORT, HOST)
+
+console.log(`Running on http://${HOST}:${PORT}`);
+
 
 
