@@ -15,6 +15,6 @@ RUN yarn install
 # Bundle app source
 COPY . .
 
-EXPOSE 4000/tcp
-EXPOSE 4000/udp
+EXPOSE 4020/tcp
+EXPOSE 4020/udp
 CMD ["yarn", "start"]
