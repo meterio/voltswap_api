@@ -14,7 +14,7 @@ exports.swaggerDocs = {
       },
       servers: [
         {
-          url: "http://localhost:5000",
+          url: "http://13.214.34.49:5000",
         },
       ],
     
