@@ -14,7 +14,7 @@ exports.swaggerDocs = {
       },
       servers: [
         {
-          url: "http://13.214.34.49:4000",
+          url: "http://api.voltswap.finance:4000",
         },
       ],
     
