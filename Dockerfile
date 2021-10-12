@@ -1,4 +1,4 @@
-FROM node:14
+FROM keymetrics/pm2:14-jessie
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -17,4 +17,4 @@ COPY . .
 
 EXPOSE 4000/tcp
 EXPOSE 4000/udp
-CMD ["yarn", "start"]
+CMD ["pm2-runtime", "start", "app.js"]
